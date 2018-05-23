@@ -1,0 +1,103 @@
+body {
+	border: 0px;
+	padding: 0px;
+	background-image:url(img/Free-Download-Background-Images-For-Website-Design-3.jpg);
+}
+
+nav{
+	padding: 0px;
+}
+
+.navbar{               
+	
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+    background: black;
+	height: 5vh;
+
+}
+
+.line1{
+	color: white;
+}
+
+
+.ref1{
+	font-size: 50px;
+	font-style: italic;
+	color: cadetblue;
+	text-decoration: underline;
+}
+
+.ref2{
+	font-size: 50px;
+	font-style: oblique;
+	color: orange;
+	text-decoration: underline;
+}
+
+.link {
+	
+	text-decoration: none;
+    justify-content: flex-start;
+	padding-right: 5vw;
+	color: white;
+	
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+   
+}
+
+ul ul {
+     background: black;
+	 display: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul li:hover{
+	background: grey;
+		}
+
+ul li:hover ul{
+	display: block;
+}
+
+nav div {
+	  
+	  background: lightgrey;
+      color: #292929;
+      font-size: 24px;
+      cursor: pointer;
+      display: none;
+}
+
+
+@media only screen and (max-width:540px){
+	nav div {
+		display: block;
+		background: gray;
+	}
+	
+	.navbar {
+		display: none;
+	}
+	
+	li {
+		background: gray;
+	}
+	
+	ul li:hover{
+	background: grey;
+		}
+}
+
+
